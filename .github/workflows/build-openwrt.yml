@@ -18,11 +18,11 @@ on:
       - '.config'
   schedule:
     - cron: 0 0 * * *
-  # watch:
-   # types: [started]
+#  watch:
+#    types: [started]
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: dev-lean-lede
   CONFIG_FILE: .config
   DIY_SH: diy.sh
